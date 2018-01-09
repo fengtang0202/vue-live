@@ -1,0 +1,87 @@
+body{margin: 0;background-color:#EBEBEB;padding:0;font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;}
+img{ vertical-align:top;}
+p{margin:0;}
+.header{position:relative;top:0;left:0;background-color: #fff;width:100%}
+.details{display:flex;flex-direction:row;width:100%;}
+.iconfont{font-size: .35rem;margin-left:.27rem;color:#999999}
+.title{font-size: .28rem;}.title_1{color:#f03118}
+.person{width:1.9rem;height:.67rem;background-color: rgba(255,255,255,0.8);position: absolute;top:.31rem;right:.27rem; border-radius:.27rem;}
+.person .iconfont{line-height: .67rem}
+.nav{margin-top:.1rem;height:0.8rem;background-color: #fff;width:100%;display:flex;justify-content:space-between;}
+.nav div{width:30%;height:100%;font-weight: normal;line-height: 0.8rem;font-size: .3rem;text-align: center;}
+.nav div:last-child{background-color: #f33333;color:#fff}
+.content{width:100%;min-height:6rem;position: relative;margin-top: .08rem;background-color: #EBEBEB;overflow-y:scroll;-webkit-overflow-scrolling : touch }
+.content::-webkit-scrollbar {display: none;}
+.content section{display:none;position: absolute;top:0;left:0;}
+.content .show{display: block;}
+.timer_message{
+    position:absolute;
+    right:.53rem;
+    line-height: 40px;
+}
+.person_info{color:#003f8c;font-size:.35rem;line-height:40px;}
+.message_details{color:#333;font-size:.32rem;display: flex;justify-content:space-around;flex-wrap: wrap;}
+.message_details img{margin-bottom:.2rem}
+.message_info_details{margin:.13rem 0 .13rem .13rem }
+.info{width:90%;}
+.user_message_info{overflow:hidden;}
+.footer{position: fixed;display: none;bottom:0;line-height:0.8rem;height:1.18rem;width:100%;background-color: #fff}
+#message{width:45%;height:.65rem;border:0;font-size:.24rem;padding-left: .27rem;border-radius: 1.2rem;background-color: #f3f3f3;outline:none;margin: .27rem }
+#send{width: 2.15rem;height: .8rem;border:0;background-color: #F33333;border-radius: .5rem;outline:none;color:#fff;}
+.user_message{position:relative;border-radius: .2rem;margin-right: .5rem;float:right;width:70%;background-color: #fff;padding: .13rem;}
+.user_avatar{float:left;}
+.jiantou{width: 0;height: 0;border-right: .2rem solid #fff;border-top: .18rem solid transparent;border-bottom: .13rem solid transparent;position: absolute;left:-.2rem;top:.13rem;}
+#money{position:fixed;bottom:15%;right:.13rem}
+/*model*/
+.active{color:#f33333;border-bottom:.07rem solid #f33333;}
+.dialog_wrap,.erweima_wrap,.hongbao_wrap{width:100%;display:none;height:100%;position:absolute;left:0;top:0;background-color:rgba(0,0,0,0.5)}
+.dialog_1{position:absolute;top:40%;left:27%;}
+.hongbao{width:100%;height:4.53rem;position:absolute;bottom:0;background-color: #fff;}
+.hongbao p{margin:.2rem auto;border-radius:.13rem ;width:88%;height:14%;}
+#count,#price,#zhufu,#price_1{outline:none;padding-right:.13rem;border:0;text-align: right;width:55%;height:80%;font-size: .27rem}
+#count{margin-left: .8rem}
+#price{margin-left: 1.2rem}
+#zhufu{margin-left:1.6rem}
+#price_1{margin-left:.2rem}
+input::-webkit-input-placeholder{color:#B0B0B0;font-size: 12px;}
+#count::-webkit-input-placeholder,#price::-webkit-input-placeholder{text-align:right;}
+.cancle,#fa{outline: none;margin:.1rem .27rem 0  .4rem;width:40%;height:0.8rem;border:0;background-color: #fff;box-shadow: 0 0 .13rem rgba(0,0,0,.5) ;border-radius:.11rem}
+#fa{background-color: #f33333;color:#fff;}
+.nomal{color:#0099FF}
+#totalPrice{margin-left:1.7rem}
+.chat_content{width:100%;}
+.nav-bottom{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    height:1rem;
+    text-align: center;
+}
+.nav-bottom a{
+    display: block;
+    width:20%;
+    border-left:2px solid #3D445E;
+    background-color: #0C132D;
+    text-decoration: none;
+    color:#fff;
+    line-height: 1rem;
+}
+.copy{
+    margin-top:4px;
+    margin-left:19%;
+}
+.zhufuyu,.getmoney{
+    color:#fff;
+    position: absolute;
+    left:1.5rem;
+}
+.zhufuyu{
+    font-size: 16px;
+    top:10px;
+    width:60%;
+    /* background-color: #fff; */
+}
+.getmoney{
+    font-size: 16px;
+    top:35px;
+}
